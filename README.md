@@ -3,5 +3,5 @@ This repository contains a ROS package (with two helper files) for controlling p
 
 ## structure
 - The package itself is contained inside of the drone_control directory.
-- The launch file (rmf_sim_positionYawrateControl.launch) was added to the gbplanner package in the launch directory.
+- The launch file (rmf_sim_positionYawrateControl.launch) was added to the ./launch/rmf directory of the gbplanner package.
 - The yaml file (roll_pitch_yawrate_thrust_controller_rmf_obelix.yaml) is a tuning file and it was added to the resource directory of the rotors_gazebo package.
