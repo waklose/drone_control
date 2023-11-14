@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>drone_control</name>
+  <version>0.0.0</version>
+  <description>The drone_control package</description>
+
+  <maintainer email="waklose@stud.ntnu.no">Alexander Klose</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/waklose/drone_control</url>
+
+  <author email="waklose@stud.ntnu.no">Alexander Klose</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>cmake_modules</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>geometry_msgs</depend>
+  <depend>mav_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rotors_control</depend>
+</package>
